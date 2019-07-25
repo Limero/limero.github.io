@@ -1,4 +1,4 @@
-baseURL = "https://limero.gitlab.io"
+baseURL = "https://limero.gitlab.io/"
 languageCode = "en-us"
 title = "Limero"
 theme = "lithium"
