@@ -1,7 +1,6 @@
 ---
 title: "About"
-draft: true
 ---
 
-Welcome to my website!
+My name is David Pedersen and this is my blog.
 
