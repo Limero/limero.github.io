@@ -1,8 +1,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-{{ .Hugo.Generator }}
+{{ hugo.Generator }}
 
-{{ if eq .URL "/" }}
+{{ if eq .RelPermalink "/" }}
 <title>{{ .Title }}</title>
 <meta property="og:title" content="{{ .Title }}">
 <meta property="og:type" content="website">
@@ -10,11 +10,9 @@
 <title>{{ .Title }} - {{ .Site.Title }}</title>
 <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
 {{ end }}
-{{ with .Site.Params.favicon }}
-  <link href='{{ . | absURL }}' rel='icon' type='image/x-icon'/>
-{{ end }}
+{{ with .Site.Params.favicon }}<link href='{{ . | absURL }}' rel='icon' type='image/x-icon'/>{{ end }}
 
-{{ if eq .URL "/" }}
+{{ if eq .RelPermalink "/" }}
 <meta property="description" content="{{ .Site.Params.description }}">
 {{ else }}
   {{ if .Description }}
@@ -22,14 +20,8 @@
   {{ end }}
 {{ end }}
 
-{{ if .Keywords }}
-<meta property="keywords" content ="{{ delimit .Keywords ", " }}">
-{{ end }}
-
-{{ if .RSSLink }}
-<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-{{ end }}
-
+{{ if .Keywords }}<meta property="keywords" content ="{{ delimit .Keywords ", " }}">{{ end }}
+<link href="{{ .Site.BaseURL }}index.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 <link rel="icon" href="{{ .Site.BaseURL }}{{ .Site.Params.icon.url }}" type="image/x-icon"/>
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" media="all">
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/webmention.css" media="all">
