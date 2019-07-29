@@ -14,19 +14,6 @@
     </div>
   </article>
 
-  {{ if eq .Section "post" }}
-  <hr>
-  <h3>Interactions with this post via <a href="https://indieweb.org/webmention">WebMention</a></h3>
-  You can comment via <a href="https://commentpara.de">Comment Parade</a> or submit a response url here
-  <form action="https://webmention.io/{{ (urls.Parse .Site.BaseURL).Host }}/webmention" method="post">
-    <input name="source" placeholder="https://example.com/response" type="url">
-    <input name="target" value="{{ .Permalink }}" type="hidden">
-    <input value="Send Webmention" type="submit">
-  </form>
-  <div id="webmentions"></div>
-  <noscript>JavaScript is required to render webmentions</noscript>
-  {{ end }}
-
 </main>
 
 {{ partial "footer.html" . }}
