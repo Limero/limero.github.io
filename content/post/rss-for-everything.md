@@ -1,5 +1,5 @@
 ---
-title: "Use RSS for everything"
+title: "Use RSS for Everything"
 date: 2019-07-30
 ---
 
