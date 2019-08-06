@@ -58,6 +58,24 @@ pre code {
   padding: initial;
   background: transparent;
 }
+
+th, td {
+    padding: 15px;
+}
+
+th {
+  background: #eee;
+  text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
 .wrapper {
   overflow: hidden;
   position: relative;
