@@ -22,7 +22,7 @@ Another one of my favorite RSS readers is [Newsboat](https://newsboat.org), prev
 ### YouTube
 YouTube has official support for RSS feeds for a channel's video uploads. Visit the channel you are interested in and grab the channel ID from the address bar. The channel ID contains 24 random characters.
 
-If the channel you want to follow has a username in the link instead of a channel ID, you can use the [Youtube Username to Channel ID Converter](http://johnnythetank.github.io/youtube-channel-name-converter/) to extract it.
+If the channel you want to follow has a username in the link instead of a channel ID, you can use [this website](https://socialnewsify.com/get-channel-id-by-username-youtube) to extract it.
 
 It can then be added to your reader like this:
 
