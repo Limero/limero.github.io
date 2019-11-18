@@ -6,7 +6,7 @@ body {
 }
 
 body {
-  font-family: 'Merriweather', serif;
+  font-family: sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -19,7 +19,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', sans-serif;
   color: #222;
 }
 
@@ -34,7 +33,6 @@ img {
 
 pre,
 code {
-  font-family: 'Roboto Mono', monospace;
   font-size: 15px;
 }
 
@@ -92,7 +90,6 @@ table, th, td {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 15px;
-  font-family: 'Lato', sans-serif;
   text-align: right;
 }
 
@@ -149,7 +146,7 @@ table, th, td {
 }
 
 .article-date {
-  color: #ccc;
+  color: #aaa;
 }
 
 .article-content p {
@@ -210,7 +207,7 @@ table, th, td {
 }
 
 .archive-item-date {
-  color: #ccc;
+  color: #aaa;
   font-size: 14px;
   padding: 5px 0;
   margin-top: 5px;
@@ -221,7 +218,6 @@ table, th, td {
   display: inline-block;
   text-decoration: none;
   font-size: 21px;
-  font-family: 'Lato', sans-serif;
   font-weight: bold;
   color: #222;
   padding: 5px 0;
@@ -235,14 +231,13 @@ table, th, td {
 .footer {
   padding: 25px 0;
   text-align: center;
-  font-family: 'Lato', sans-serif;
 }
 
 .footer-links {
   list-style: none;
   margin: 0;
   padding: 0;
-  color: #ccc;
+  color: #aaa;
   font-size: 14px;
 }
 
