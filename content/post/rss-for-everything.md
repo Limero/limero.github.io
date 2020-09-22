@@ -43,10 +43,10 @@ https://octodon.social/@emersion.rss
 ```
 
 ### Twitter
-Twitter does not offer official support for RSS, so their content must be crawled. There is an easy to use free service for this called [TwitRSS.me](https://twitrss.me) so Twitter users can be followed like this:
+Twitter does not offer official support for RSS, so their content must be crawled. There is an easy to use free service for this called [nitter](https://nitter.net) so Twitter users can be followed like this:
 
 ```
-https://twitrss.me/twitter_user_to_rss/?user={username}
+https://nitter.net/{username}/rss
 ```
 
 ### Facebook
