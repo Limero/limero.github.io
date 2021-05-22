@@ -1,4 +1,4 @@
-baseURL = "https://limero.se/"
+baseURL = "https://limero.github.io/"
 languageCode = "en-us"
 title = "Limero"
 theme = "lithium"

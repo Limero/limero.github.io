@@ -61,7 +61,7 @@ This will probably be your main source of feeds. Sometimes it's not easy to find
 
 Here is the feed for this blog:
 ```
-https://limero.se/index.xml
+https://limero.github.io/index.xml
 ```
 
 #### WordPress
